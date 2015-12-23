@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\Control2.cs" />
      <Compile Include="Assets\Scripts\Control3.cs" />
      <Compile Include="Assets\Scripts\Control4.cs" />
+     <Compile Include="Assets\Scripts\InstantiateObj.cs" />
      <Compile Include="Assets\Scripts\ParseScr.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

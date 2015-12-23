@@ -7,20 +7,19 @@ public class Control : MonoBehaviour {
 	private float boxScale1;
 	public GameObject box1;
 
+
 	public void Start(){
+		box1 = GameObject.Find ("Box 1(Clone)");
 		boxScale1 = 0.4F;
 
 	}
-
 	public void InpField1(string inputNumber1)
 	{
 		boxScale1 = float.Parse(inputNumber1);
-
 	}
 		
 	public void Update(){
 		
 		box1.transform.localScale = new Vector3 (boxScale1,boxScale1,0);
-
 	}
 }

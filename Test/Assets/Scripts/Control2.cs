@@ -7,7 +7,9 @@ public class Control2 : MonoBehaviour {
 	private float boxScale2;
 	public GameObject box2;
 
+
 	public void Start(){
+		box2 = GameObject.Find ("Box 2(Clone)");
 		boxScale2 = 0.3F;
 	}
 		
